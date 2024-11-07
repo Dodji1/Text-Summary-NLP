@@ -1,7 +1,7 @@
 # Ignorer les fichiers de modèles et de sortie
 venv/
 model/model_saved/
-__pycache__
+__pycache__/
 
 # Ignorer les fichiers jupiter
 .ipynb
