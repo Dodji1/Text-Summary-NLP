@@ -15,8 +15,8 @@ def summarize_text(text_input):
     """
 
     # Load the model and tokenizer
-    model = BartForConditionalGeneration.from_pretrained("./model_saved")
-    tokenizer = BartTokenizer.from_pretrained("./model_saved")
+    model = BartForConditionalGeneration.from_pretrained("model\model_saved")
+    tokenizer = BartTokenizer.from_pretrained("model\model_saved")
 
     # Initialize the summarization pipeline
     summarizer = pipeline("summarization", model=model, tokenizer=tokenizer)
