@@ -1,30 +1,6 @@
-# Ignorer les répertoires d'environnements virtuels
+# Ignorer les fichiers de modèles et de sortie
 venv/
-_old/
-__pycache__/
 model/model_saved/
 
-
-# Ignorer les fichiers de cache et de compilations Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-*.egg
-*.pyo
-*.pyc
-
-# Ignorer les fichiers Jupyter Notebook de checkpoints
-.ipynb_checkpoints/
-
-# Ignorer les fichiers de configuration et de données sensibles
-.env
-config.py
-secrets.json
-
-# Ignorer les fichiers de modèles et de sortie
-venv.rar
-model/model_saved/model.safetensors
-
-# Ignorer les fichiers de configuration pour les IDE
-.vscode/
-.idea/
+# Ignorer les fichiers jupiter
+.ipynb
