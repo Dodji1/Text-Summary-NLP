@@ -45,9 +45,12 @@ def main():
         unsafe_allow_html=True)
 
     summary = "Aucun résumé disponible."
-    if text != "Aucun texte n'a été entré ou téléchargé." and st.sidebar.button("Résumer le texte"):
-        summary_data = summarize_text(text)
-        summary = summary_data["generated_summary"]
+    try:
+        if text != "Aucun texte n'a été entré ou téléchargé." and st.sidebar.button("Résumer le texte"):
+            summary_data = summarize_text(text)
+            summary = summary_data["generated_summary"]
+    except :
+        summary = "error"
 
     st.write("### Résumé")
     st.write(
