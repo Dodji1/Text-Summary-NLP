@@ -1,0 +1,12 @@
+flask
+matplotlib
+numpy
+pillow
+requests
+transformers
+scikit-learn
+pandas
+streamlit
+PyPDF2
+torch
+tokenizers
