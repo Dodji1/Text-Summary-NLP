@@ -4,3 +4,4 @@ model/model_saved/
 
 # Ignorer les fichiers jupiter
 .ipynb
+.pptx
