@@ -2,6 +2,7 @@
 venv/
 model/model_saved/
 __pycache__/
+.idea/
 
 # Ignorer les fichiers jupiter
 .ipynb
